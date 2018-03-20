@@ -2,6 +2,8 @@ import numpy as np
 import collections
 from torch.autograd import Variable
 import torch
+import random
+
 
 def normalize_word(word):
     new_word = ""
@@ -54,6 +56,7 @@ def load_pretrained_emb_uniform(path, text_field_words_dict, emb_dims, norm=Fals
 
 
 def load_pretrained_emb_avg(path, text_field_words_dict, emb_dims, norm=False, set_padding=True):
+    print('Load embedding...')
     padID = text_field_words_dict['<pad>']
     embed_dict, embed_dim = load_pretrained_emb_total(path)
     assert embed_dim == emb_dims
@@ -129,17 +132,9 @@ def load_pretrained_emb_total(path):
     with open(path, 'r', encoding='utf-8') as f:
         for line in f:
             line_split = line.strip().split(' ')
-            if embed_dim < 0:
-                if len(line_split) == 1:
-                    embed_dim = line_split[0]
-                    continue
-                elif len(line_split) == 2:
-                    embed_dim = line_split[1]
-                    continue
-                else:
-                    embed_dim = len(line_split) - 1
-            else:
-                assert (embed_dim == (len(line_split) - 1))
+            if len(line_split) < 3: continue
+            if embed_dim < 0: embed_dim = len(line_split) - 1
+            else: assert (embed_dim == len(line_split) - 1)
             embed = np.zeros([1, embed_dim])        # 不直接赋值，也许考虑到python浅赋值的问题
             embed[:] = line_split[1:]
             embed_dict[line_split[0]] = embed
@@ -181,3 +176,29 @@ def patch_var(bucket, batch_length, params):
     return fea_var, label_var, mask_var, length_var
 
 
+def random_data(insts, insts_index):
+    insts_num = len(insts)
+    # random.shuffle(insts)
+    num_list = list(range(0, insts_num))
+    random.shuffle(num_list)
+    insts_dict = dict(zip(num_list, insts))
+    insts_dict = sorted(insts_dict.items(), key=lambda item: item[0], reverse=False)
+    insts_sorted = [ele[1] for ele in insts_dict]
+    # print(insts_sorted)
+    insts_index_dict = dict(zip(num_list, insts_index))
+    insts_index_dict = sorted(insts_index_dict.items(), key=lambda item: item[0], reverse=False)
+    insts_index_sorted = [ele[1] for ele in insts_index_dict]
+
+    return insts_sorted, insts_index_sorted
+
+def sorted_instances_index(insts_index):
+    insts_length = [len(inst_index[0]) for inst_index in insts_index]
+    insts_range = list(range(len(insts_index)))
+    assert len(insts_length) == len(insts_range)
+    length_dict = dict(zip(insts_range, insts_length))
+    length_sorted = sorted(length_dict.items(), key=lambda e: e[1], reverse=True)
+    perm_list = [length_sorted[i][0] for i in range(len(length_sorted))]
+    insts_index_dict = dict(zip(insts_range, insts_index))
+    insts_index_sorted = [insts_index_dict.get(i) for i in perm_list]
+
+    return insts_index_sorted

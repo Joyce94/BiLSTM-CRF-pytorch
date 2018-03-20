@@ -1,6 +1,6 @@
-from alphabet import Alphabet
+from data.alphabet import Alphabet
 from collections import Counter
-import utils
+import data.utils as utils
 import math
 
 class Data():
@@ -146,13 +146,12 @@ class Data():
                 insts_index.append([words_index, labels_index])
 
         ##### sorted sentences
-        insts_sorted, insts_index_sorted = utils.sorted_instances(insts, insts_index)
-        return insts_sorted, insts_index_sorted
+        # insts_sorted, insts_index_sorted = utils.sorted_instances(insts, insts_index)
+        return insts, insts_index
 
 
     def build_word_pretrain_emb(self, emb_path, word_dims):
         self.pretrain_word_embedding = utils.load_pretrained_emb_avg(emb_path, self.word_alphabet.word2id, word_dims, self.norm_word_emb)
-        # self.pretrain_word_embedding = utils.load_embedding(emb_path, self.word_alphabet.word2id, word_dims)
 
     def build_char_pretrain_emb(self, emb_path, char_dims):
         self.pretrain_char_embedding = utils.load_pretrained_emb_avg(emb_path, self.char_alphabet.word2id, char_dims, self.norm_char_emb)
@@ -171,24 +170,47 @@ class Data():
             buckets = [[[], [], [], []] for _ in range(batch_num)]
         else:
             buckets = [[[], [], []] for _ in range(batch_num)]
-        max_length = 0
-
         labels_raw = [[] for _ in range(batch_num)]
-
+        inst_save = []
         for id, inst in enumerate(insts):
             idx = id // batch_size
-            if id % batch_size == 0: max_length = len(inst[0])
-            cur_length = len(inst[0])
+            if id == 0 or id % batch_size != 0:
+                inst_save.append(inst)
+            elif id % batch_size == 0:
+                assert len(inst_save) == batch_size
+                inst_sorted = utils.sorted_instances_index(inst_save)
+                max_length = len(inst_sorted[0][0])
+                for idy in range(batch_size):
+                    cur_length = len(inst_sorted[idy][0])
+                    buckets[idx-1][0].append(inst_sorted[idy][0] + [self.word_alphabet.word2id['<pad>']] * (max_length - cur_length))
+                    buckets[idx-1][1].append(inst_sorted[idy][-1] + [self.label_alphabet.word2id['<pad>']] * (max_length - cur_length))
 
-            buckets[idx][0].append(inst[0] + [self.word_alphabet.word2id['<pad>']] * (max_length - cur_length))
-            buckets[idx][1].append(inst[-1] + [self.label_alphabet.word2id['<pad>']] * (max_length - cur_length))
-            if char:
-                # if id % batch_size == 0: max_char_length = len(inst[1][0])
-                cur_char_length = len(inst[1][0])
-                inst[1] = [(ele + [self.char_alphabet.word2id['<pad>']] * (self.max_char_length - cur_char_length)) for ele in inst[1]]
-                buckets[idx][2].append((inst[1] + [[self.char_alphabet.word2id['<pad>']] * self.max_char_length] * (max_length - cur_length)))
-            buckets[idx][-1].append([1] * cur_length + [0] * (max_length - cur_length))
-            labels_raw[idx].append(inst[-1])
+                    if char:
+                        cur_char_length = len(inst_sorted[idy][1][0])
+                        inst_sorted[idy][1] = [(ele + [self.char_alphabet.word2id['<pad>']] * (self.max_char_length - cur_char_length)) for ele in inst_sorted[idy][1]]
+                        buckets[idx-1][2].append((inst_sorted[idy][1] + [[self.char_alphabet.word2id['<pad>']] * self.max_char_length] * (max_length - cur_length)))
+                    buckets[idx-1][-1].append([1] * cur_length + [0] * (max_length - cur_length))
+                    labels_raw[idx-1].append(inst_sorted[idy][-1])
+                inst_save = []
+                inst_save.append(inst)
+        if inst_save != []:
+            inst_sorted = utils.sorted_instances_index(inst_save)
+            max_length = len(inst_sorted[0][0])
+            for idy in range(len(inst_sorted)):
+                cur_length = len(inst_sorted[idy][0])
+                buckets[batch_num-1][0].append(
+                    inst_sorted[idy][0] + [self.word_alphabet.word2id['<pad>']] * (max_length - cur_length))
+                buckets[batch_num-1][1].append(
+                    inst_sorted[idy][-1] + [self.label_alphabet.word2id['<pad>']] * (max_length - cur_length))
+                if char:
+                    cur_char_length = len(inst_sorted[idy][1][0])
+                    inst_sorted[idy][1] = [
+                        (ele + [self.char_alphabet.word2id['<pad>']] * (self.max_char_length - cur_char_length)) for
+                        ele in inst_sorted[idy][1]]
+                    buckets[batch_num-1][2].append((inst_sorted[idy][1] + [
+                        [self.char_alphabet.word2id['<pad>']] * self.max_char_length] * (max_length - cur_length)))
+                buckets[batch_num-1][-1].append([1] * cur_length + [0] * (max_length - cur_length))
+                labels_raw[batch_num-1].append(inst_sorted[idy][-1])
         return buckets, labels_raw
 
     def generate_batch_buckets_save(self, batch_size, insts, char=False):

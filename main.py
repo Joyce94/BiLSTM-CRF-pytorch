@@ -1,9 +1,9 @@
 import argparse
-import config
-from vocab import Data
-import lstm
+import data.config as config
+from data.vocab import Data
+import model.lstm as lstm
 import train
-import crf
+import model.crf as crf
 import torch
 import random
 import numpy as np
@@ -14,7 +14,7 @@ if __name__ == '__main__':
     random.seed(123)
     np.random.seed(666)
     argparser = argparse.ArgumentParser()
-    argparser.add_argument('--config-file', default=r'C:\Users\song\Desktop\new-crf\PyTorch-crf-batch-ver1\config.cfg')
+    argparser.add_argument('--config-file', default=r'C:\Users\song\Desktop\new-crf\BiLSTM-CRF-NER\examples\config.cfg')
     argparser.add_argument('--use-cuda', default=False)
     argparser.add_argument('--static', default=False, help='fix the embedding')
     argparser.add_argument('--add-char', default=False, help='add char feature')
@@ -46,11 +46,9 @@ if __name__ == '__main__':
                                                      config.shrink_feature_thresholds, char=args.add_char)
     print('test getting test_insts time: ', time.time() - test_time)
 
-    train_buckets, train_labels_raw = data.generate_batch_buckets(config.train_batch_size, train_insts_index, char=args.add_char)
-    # dev_buckets = data.generate_batch_buckets(config.test_batch_size, dev_insts_index, char=args.add_char)
-    # test_buckets = data.generate_batch_buckets(config.test_batch_size, test_insts_index, char=args.add_char)
-    dev_buckets, dev_labels_raw = data.generate_batch_buckets(len(dev_insts), dev_insts_index, char=args.add_char)
-    test_buckets, test_labels_raw = data.generate_batch_buckets(len(test_insts), test_insts_index, char=args.add_char)
+    # train_buckets, train_labels_raw = data.generate_batch_buckets(config.train_batch_size, train_insts_index, char=args.add_char)
+    # dev_buckets, dev_labels_raw = data.generate_batch_buckets(len(dev_insts), dev_insts_index, char=args.add_char)
+    # test_buckets, test_labels_raw = data.generate_batch_buckets(len(test_insts), test_insts_index, char=args.add_char)
 
     print('test getting batch_insts time: ', time.time() - test_time)
 
@@ -68,7 +66,7 @@ if __name__ == '__main__':
     print('test creating crf time: ', time.time() - test_time)
     if data.use_cuda: model = model.cuda()
 
-    train.train_ner(train_buckets, dev_buckets, test_buckets, train_labels_raw, dev_labels_raw, test_labels_raw, model, crf_layer, config, data)
+    train.train_ner(train_insts, train_insts_index, dev_insts, dev_insts_index, test_insts, test_insts_index, model, crf_layer, config, data)
 
 
 

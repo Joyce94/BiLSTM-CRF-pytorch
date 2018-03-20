@@ -33,18 +33,18 @@ def Extract_entity(labels, category_set, prefix_array):
                 endpos = idy
                 idy += 1
             category = cleanLabel(labels[idx], prefix_array)
-            # print(category)
+
             entity = Entity(idx, endpos, category)
             ent.append(entity)
             idx = endpos
         idx += 1
     category_num = len(category_set)
     category_list = [e for e in category_set]
-    # print(category_list)
+
     entity_group = []
     for i in range(category_num):
         entity_group.append([])
-    # print(entity_group)
+
     for id, c in enumerate(category_list):
         for entity in ent:
             if entity.category == c:
@@ -75,7 +75,6 @@ def Extract_category(label2id, prefix_array):
     for key in label2id:
         if '-' in key:
             category_list.append(cleanLabel(key, prefix))
-    # print(category_list)
     new_list = list(set(category_list))
     new_list.sort(key=category_list.index)
 
@@ -210,14 +209,14 @@ class Eval():
             gold_set, gold_entity_group = Extract_entity(gold_labels[index], self.category_set, prefix_array)
             predict_set, pre_entity_group = Extract_entity(predict_labels[index], self.category_set, prefix_array)
             result = self.overall_evaluate(predict_set, gold_set, eval_type)  # g,p,c
-            # print(result)
+
             for i in range(len(result)):
                 self.B[0][i] += result[i]
             for iter in range(len(self.category_set)):
                 result = self.overall_evaluate(pre_entity_group[iter], gold_entity_group[iter], eval_type)
                 for i in range(len(result)):
                     self.B[iter + 1][i] += result[i]
-        # return self.B
+
 
     def get_f1_score_e(self, real_num, predict_num, correct_num):
         if predict_num != 0:
@@ -265,15 +264,8 @@ def Convert2label(path, id2label):
 
 def eval_entity(gold_labels, predict_labels, params):
     prefix_array = [['b', 'B', 's', 'S'], ['m', 'M', 'e', 'E']]
-    # print(gold_labels)
     gold_labels = Convert2label(gold_labels, params.label_alphabet.id2word)
     predict_labels = Convert2label(predict_labels, params.label_alphabet.id2word)
-    # print(len(gold_labels[0]))
-    # print(len(predict_labels[0]))
-    # print(gold_labels[0])
-    # print(predict_labels[0])
-    # print(len(gold_labels[1]))
-    # print(len(predict_labels[1]))
 
     category_set = Extract_category(params.label_alphabet.id2word, prefix_array)
     dataset_num = len(gold_labels)

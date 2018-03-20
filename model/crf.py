@@ -44,6 +44,8 @@ class CRF(nn.Module):
         self.label2id = params.label_alphabet.word2id
         self.use_cuda = params.use_cuda
         self.transition = torch.zeros(self.label_nums, self.label_nums)
+        self.transition.data[self.label2id['<start>'], :] = -10000
+        self.transition.data[:, self.label2id['<pad>']] = -10000
         if self.use_cuda: self.transition = self.transition.cuda()
         self.T = nn.Parameter(self.transition)
 

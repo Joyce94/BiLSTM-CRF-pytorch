@@ -35,14 +35,12 @@ class LSTM(nn.Module):
         self.lstm_layers = config.lstm_layers
         self.batch_size = config.train_batch_size
 
-        # self.embedding = nn.Embedding(self.word_num, self.word_dims, padding_idx=self.eofID)
         self.embedding = nn.Embedding(self.word_num, self.word_dims)
         self.embedding.weight.requires_grad = True
         if self.static:
             self.embedding_static = nn.Embedding(self.word_num, self.word_dims)
             self.embedding_static.weight.requires_grad = False
 
-        # if config.pretrained_wordEmb_file != '':
         if params.pretrain_word_embedding is not None:
             # pretrain_weight = np.array(params.pretrain_word_embedding)
             # self.embedding.weight.data.copy_(torch.from_numpy(pretrain_weight))
@@ -62,8 +60,6 @@ class LSTM(nn.Module):
 
         self.hidden = self.init_hidden(self.batch_size)
 
-        # self.crf = CRF.CRF(self.lstm_hiddens, params)
-        # self.init_lstm(self.lstm)
 
     def init_hidden(self, batch_size):
         if self.use_cuda:
@@ -75,8 +71,8 @@ class LSTM(nn.Module):
 
     def forward(self, fea_v, length):
         if self.add_char:
-            word_v = fea_v[0]       # [torch.LongTensor of size 5x16]
-            char_v = fea_v[1]       # [torch.LongTensor of size 5x16x17]
+            word_v = fea_v[0]
+            char_v = fea_v[1]
         else: word_v = fea_v
         batch_size = word_v.size(0)
         seq_length = word_v.size(1)
@@ -87,18 +83,12 @@ class LSTM(nn.Module):
             word_static = self.embedding_static(word_v)
             word_static = self.dropout_emb(word_static)
             word_emb = torch.cat([word_emb, word_static], 2)
-        # print(word_emb)         # [torch.FloatTensor of size 5x16x100]
 
-        x = torch.transpose(word_emb, 0, 1)        # [torch.FloatTensor of size 13x5x100]
-        # print(x)
+        x = torch.transpose(word_emb, 0, 1)
         packed_words = pack_padded_sequence(x, length)
-        # print(packed_words)
         lstm_out, self.hidden = self.lstm(packed_words, self.hidden)
-        # print(lstm_out)
         lstm_out, _ = pad_packed_sequence(lstm_out)
-        # print(lstm_out)         # [torch.FloatTensor of size 16x5x200]
-
-        lstm_out = self.dropout_lstm(lstm_out)      # [torch.FloatTensor of size 16x5x200]
-        lstm_out = self.hidden2label(lstm_out).view(seq_length, batch_size, self.label_num)      # [torch.FloatTensor of size 16x5x15]
+        lstm_out = self.dropout_lstm(lstm_out)
+        lstm_out = self.hidden2label(lstm_out).view(seq_length, batch_size, self.label_num)
 
         return lstm_out
