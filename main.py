@@ -14,7 +14,7 @@ if __name__ == '__main__':
     random.seed(123)
     np.random.seed(666)
     argparser = argparse.ArgumentParser()
-    argparser.add_argument('--config-file', default=r'C:\Users\song\Desktop\BiLSTM-CRF-pytorch\examples\config.cfg')
+    argparser.add_argument('--config-file', default='./examples/config.cfg')
     argparser.add_argument('--use-cuda', default=False)
     argparser.add_argument('--static', default=False, help='fix the embedding')
     argparser.add_argument('--add-char', default=False, help='add char feature')

@@ -1,0 +1,3639 @@
+nohup: ignoring input
+Loaded config file sucessfully.
+pretrained_wordemb_file 
+pretrained_charemb_file 
+data_dir ./examples
+train_file ./examples/train_debug.txt
+dev_file ./examples/train_debug.txt
+test_file ./examples/train_debug.txt
+shrink_feature_thresholds 0
+run_insts -1
+save_dir ./examples/model
+config_file ./examples/model/config.cfg
+save_model_path ./examples/model/model
+save_vocab_path ./examples/model/vocab
+load_dir ./examples/model
+load_model_path ./examples/model/model
+load_vocab_path ./examples/model/vocab
+lstm_layers 1
+word_dims 100
+char_dims 30
+lstm_hiddens 200
+dropout_emb 0.1
+dropout_lstm 0.1
+learning_rate 0.001
+decay 1e-8
+clip_grad 5
+thread_nums 1
+maxiters 1000
+train_batch_size 5
+test_batch_size 10
+validate_every 10
+save_after 0
+update_every 1
+test getting train_insts time:  0.005576372146606445
+test getting dev_insts time:  0.0096893310546875
+test getting test_insts time:  0.012279748916625977
+test getting batch_insts time:  0.012299776077270508
+test building model time:  0.06662845611572266
+test creating crf time:  0.06674766540527344
+training...
+
+epoch is 0, average loss is 41.53391927083333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/14)
+   TARGET - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   DSE - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   AGENT - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/4)
+
+Test...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/14)
+   TARGET - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   DSE - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   AGENT - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/4)
+now, best fscore is:  0.0
+
+epoch is 1, average loss is 9.466536458333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/14)
+   TARGET - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   DSE - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   AGENT - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/4)
+now, best fscore is:  0.0
+
+epoch is 2, average loss is 9.054036458333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/14)
+   TARGET - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   DSE - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   AGENT - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/4)
+now, best fscore is:  0.0
+
+epoch is 3, average loss is 10.273177083333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/14)
+   TARGET - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   DSE - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   AGENT - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/4)
+now, best fscore is:  0.0
+
+epoch is 4, average loss is 8.675651041666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/14)
+   TARGET - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   DSE - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   AGENT - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/4)
+now, best fscore is:  0.0
+
+epoch is 5, average loss is 6.427408854166667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/14)
+   TARGET - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   DSE - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   AGENT - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/4)
+now, best fscore is:  0.0
+
+epoch is 6, average loss is 5.644661458333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/14)
+   TARGET - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   DSE - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   AGENT - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/4)
+now, best fscore is:  0.0
+
+epoch is 7, average loss is 5.12109375 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/14)
+   TARGET - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   DSE - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   AGENT - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/4)
+now, best fscore is:  0.0
+
+epoch is 8, average loss is 4.666536458333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/14)
+   TARGET - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   DSE - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   AGENT - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/4)
+now, best fscore is:  0.0
+
+epoch is 9, average loss is 4.122721354166667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/14)
+   TARGET - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   DSE - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   AGENT - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/4)
+now, best fscore is:  0.0
+
+epoch is 10, average loss is 3.9373046875 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/14)
+   TARGET - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   DSE - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   AGENT - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/4)
+now, best fscore is:  0.0
+
+epoch is 11, average loss is 3.625260416666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/14)
+   TARGET - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   DSE - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   AGENT - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/4)
+now, best fscore is:  0.0
+
+epoch is 12, average loss is 3.119856770833333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/14)
+   TARGET - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   DSE - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/5)
+   AGENT - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/4)
+now, best fscore is:  0.0
+
+epoch is 13, average loss is 2.929296875 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/2/14)
+   TARGET - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/1/5)
+   DSE - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/1/5)
+   AGENT - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/4)
+now, best fscore is:  0.0
+
+epoch is 14, average loss is 2.8078125 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/2/14)
+   TARGET - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/1/5)
+   DSE - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/1/5)
+   AGENT - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/4)
+now, best fscore is:  0.0
+
+epoch is 15, average loss is 2.462890625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 33.3333% recall: 7.1429% f1_score: 0.1176 (1/3/14)
+   TARGET - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/1/5)
+   DSE - precision: 50.0000% recall: 20.0000% f1_score: 0.2857 (1/2/5)
+   AGENT - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/4)
+
+Test...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 33.3333% recall: 7.1429% f1_score: 0.1176 (1/3/14)
+   TARGET - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/1/5)
+   DSE - precision: 50.0000% recall: 20.0000% f1_score: 0.2857 (1/2/5)
+   AGENT - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/4)
+now, best fscore is:  0.11764705882352941
+
+epoch is 16, average loss is 2.226692708333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 75.0000% recall: 21.4286% f1_score: 0.3333 (3/4/14)
+   TARGET - precision: 100.0000% recall: 20.0000% f1_score: 0.3333 (1/1/5)
+   DSE - precision: 66.6667% recall: 40.0000% f1_score: 0.5000 (2/3/5)
+   AGENT - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/4)
+
+Test...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 75.0000% recall: 21.4286% f1_score: 0.3333 (3/4/14)
+   TARGET - precision: 100.0000% recall: 20.0000% f1_score: 0.3333 (1/1/5)
+   DSE - precision: 66.6667% recall: 40.0000% f1_score: 0.5000 (2/3/5)
+   AGENT - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/4)
+now, best fscore is:  0.3333333333333333
+
+epoch is 17, average loss is 2.059309895833333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 85.7143% recall: 42.8571% f1_score: 0.5714 (6/7/14)
+   TARGET - precision: 75.0000% recall: 60.0000% f1_score: 0.6667 (3/4/5)
+   DSE - precision: 100.0000% recall: 60.0000% f1_score: 0.7500 (3/3/5)
+   AGENT - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/4)
+
+Test...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 85.7143% recall: 42.8571% f1_score: 0.5714 (6/7/14)
+   TARGET - precision: 75.0000% recall: 60.0000% f1_score: 0.6667 (3/4/5)
+   DSE - precision: 100.0000% recall: 60.0000% f1_score: 0.7500 (3/3/5)
+   AGENT - precision: 0.0000% recall: 0.0000% f1_score: 0.0000 (0/0/4)
+now, best fscore is:  0.5714285714285714
+
+epoch is 18, average loss is 2.023567708333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 80.0000% recall: 57.1429% f1_score: 0.6667 (8/10/14)
+   TARGET - precision: 75.0000% recall: 60.0000% f1_score: 0.6667 (3/4/5)
+   DSE - precision: 100.0000% recall: 60.0000% f1_score: 0.7500 (3/3/5)
+   AGENT - precision: 66.6667% recall: 50.0000% f1_score: 0.5714 (2/3/4)
+
+Test...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 80.0000% recall: 57.1429% f1_score: 0.6667 (8/10/14)
+   TARGET - precision: 75.0000% recall: 60.0000% f1_score: 0.6667 (3/4/5)
+   DSE - precision: 100.0000% recall: 60.0000% f1_score: 0.7500 (3/3/5)
+   AGENT - precision: 66.6667% recall: 50.0000% f1_score: 0.5714 (2/3/4)
+now, best fscore is:  0.6666666666666666
+
+epoch is 19, average loss is 1.8516927083333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 83.3333% recall: 71.4286% f1_score: 0.7692 (10/12/14)
+   TARGET - precision: 80.0000% recall: 80.0000% f1_score: 0.8000 (4/5/5)
+   DSE - precision: 100.0000% recall: 60.0000% f1_score: 0.7500 (3/3/5)
+   AGENT - precision: 75.0000% recall: 75.0000% f1_score: 0.7500 (3/4/4)
+
+Test...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 83.3333% recall: 71.4286% f1_score: 0.7692 (10/12/14)
+   TARGET - precision: 80.0000% recall: 80.0000% f1_score: 0.8000 (4/5/5)
+   DSE - precision: 100.0000% recall: 60.0000% f1_score: 0.7500 (3/3/5)
+   AGENT - precision: 75.0000% recall: 75.0000% f1_score: 0.7500 (3/4/4)
+now, best fscore is:  0.7692307692307692
+
+epoch is 20, average loss is 1.6990885416666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 83.3333% recall: 71.4286% f1_score: 0.7692 (10/12/14)
+   TARGET - precision: 80.0000% recall: 80.0000% f1_score: 0.8000 (4/5/5)
+   DSE - precision: 100.0000% recall: 60.0000% f1_score: 0.7500 (3/3/5)
+   AGENT - precision: 75.0000% recall: 75.0000% f1_score: 0.7500 (3/4/4)
+now, best fscore is:  0.7692307692307692
+
+epoch is 21, average loss is 1.5448567708333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 84.6154% recall: 78.5714% f1_score: 0.8148 (11/13/14)
+   TARGET - precision: 83.3333% recall: 100.0000% f1_score: 0.9091 (5/6/5)
+   DSE - precision: 100.0000% recall: 60.0000% f1_score: 0.7500 (3/3/5)
+   AGENT - precision: 75.0000% recall: 75.0000% f1_score: 0.7500 (3/4/4)
+
+Test...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 84.6154% recall: 78.5714% f1_score: 0.8148 (11/13/14)
+   TARGET - precision: 83.3333% recall: 100.0000% f1_score: 0.9091 (5/6/5)
+   DSE - precision: 100.0000% recall: 60.0000% f1_score: 0.7500 (3/3/5)
+   AGENT - precision: 75.0000% recall: 75.0000% f1_score: 0.7500 (3/4/4)
+now, best fscore is:  0.8148148148148148
+
+epoch is 22, average loss is 1.4705729166666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 84.6154% recall: 78.5714% f1_score: 0.8148 (11/13/14)
+   TARGET - precision: 83.3333% recall: 100.0000% f1_score: 0.9091 (5/6/5)
+   DSE - precision: 100.0000% recall: 60.0000% f1_score: 0.7500 (3/3/5)
+   AGENT - precision: 75.0000% recall: 75.0000% f1_score: 0.7500 (3/4/4)
+now, best fscore is:  0.8148148148148148
+
+epoch is 23, average loss is 1.3969401041666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 84.6154% recall: 78.5714% f1_score: 0.8148 (11/13/14)
+   TARGET - precision: 83.3333% recall: 100.0000% f1_score: 0.9091 (5/6/5)
+   DSE - precision: 100.0000% recall: 60.0000% f1_score: 0.7500 (3/3/5)
+   AGENT - precision: 75.0000% recall: 75.0000% f1_score: 0.7500 (3/4/4)
+now, best fscore is:  0.8148148148148148
+
+epoch is 24, average loss is 1.2716145833333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 84.6154% recall: 78.5714% f1_score: 0.8148 (11/13/14)
+   TARGET - precision: 83.3333% recall: 100.0000% f1_score: 0.9091 (5/6/5)
+   DSE - precision: 100.0000% recall: 60.0000% f1_score: 0.7500 (3/3/5)
+   AGENT - precision: 75.0000% recall: 75.0000% f1_score: 0.7500 (3/4/4)
+now, best fscore is:  0.8148148148148148
+
+epoch is 25, average loss is 1.1960286458333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 85.7143% recall: 85.7143% f1_score: 0.8571 (12/14/14)
+   TARGET - precision: 83.3333% recall: 100.0000% f1_score: 0.9091 (5/6/5)
+   DSE - precision: 100.0000% recall: 80.0000% f1_score: 0.8889 (4/4/5)
+   AGENT - precision: 75.0000% recall: 75.0000% f1_score: 0.7500 (3/4/4)
+
+Test...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 85.7143% recall: 85.7143% f1_score: 0.8571 (12/14/14)
+   TARGET - precision: 83.3333% recall: 100.0000% f1_score: 0.9091 (5/6/5)
+   DSE - precision: 100.0000% recall: 80.0000% f1_score: 0.8889 (4/4/5)
+   AGENT - precision: 75.0000% recall: 75.0000% f1_score: 0.7500 (3/4/4)
+now, best fscore is:  0.8571428571428571
+
+epoch is 26, average loss is 1.0883463541666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 85.7143% recall: 85.7143% f1_score: 0.8571 (12/14/14)
+   TARGET - precision: 83.3333% recall: 100.0000% f1_score: 0.9091 (5/6/5)
+   DSE - precision: 100.0000% recall: 80.0000% f1_score: 0.8889 (4/4/5)
+   AGENT - precision: 75.0000% recall: 75.0000% f1_score: 0.7500 (3/4/4)
+now, best fscore is:  0.8571428571428571
+
+epoch is 27, average loss is 0.9916015625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 85.7143% recall: 85.7143% f1_score: 0.8571 (12/14/14)
+   TARGET - precision: 83.3333% recall: 100.0000% f1_score: 0.9091 (5/6/5)
+   DSE - precision: 100.0000% recall: 80.0000% f1_score: 0.8889 (4/4/5)
+   AGENT - precision: 75.0000% recall: 75.0000% f1_score: 0.7500 (3/4/4)
+now, best fscore is:  0.8571428571428571
+
+epoch is 28, average loss is 0.94296875 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 92.8571% recall: 92.8571% f1_score: 0.9286 (13/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 75.0000% recall: 75.0000% f1_score: 0.7500 (3/4/4)
+
+Test...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 92.8571% recall: 92.8571% f1_score: 0.9286 (13/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 75.0000% recall: 75.0000% f1_score: 0.7500 (3/4/4)
+now, best fscore is:  0.9285714285714286
+
+epoch is 29, average loss is 0.894140625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 92.8571% recall: 92.8571% f1_score: 0.9286 (13/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 75.0000% recall: 75.0000% f1_score: 0.7500 (3/4/4)
+now, best fscore is:  0.9285714285714286
+
+epoch is 30, average loss is 0.7860677083333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+
+Test...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 31, average loss is 0.7518880208333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 32, average loss is 0.7130208333333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 33, average loss is 0.6545572916666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 34, average loss is 0.6167317708333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 35, average loss is 0.59296875 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 36, average loss is 0.551953125 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 37, average loss is 0.5001953125 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 38, average loss is 0.49192708333333335 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 39, average loss is 0.4390625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 40, average loss is 0.45234375 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 41, average loss is 0.40325520833333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 42, average loss is 0.4046875 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 43, average loss is 0.33763020833333335 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 44, average loss is 0.34296875 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 45, average loss is 0.32981770833333335 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 46, average loss is 0.30572916666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 47, average loss is 0.29127604166666665 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 48, average loss is 0.27760416666666665 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 49, average loss is 0.24967447916666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 50, average loss is 0.2744140625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 51, average loss is 0.2275390625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 52, average loss is 0.22942708333333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 53, average loss is 0.20618489583333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 54, average loss is 0.23033854166666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 55, average loss is 0.2064453125 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 56, average loss is 0.18255208333333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 57, average loss is 0.1599609375 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 58, average loss is 0.16419270833333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 59, average loss is 0.15618489583333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 60, average loss is 0.19225260416666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 61, average loss is 0.1603515625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 62, average loss is 0.156640625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 63, average loss is 0.16119791666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 64, average loss is 0.147265625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 65, average loss is 0.14231770833333332 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 66, average loss is 0.1455078125 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 67, average loss is 0.12552083333333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 68, average loss is 0.12825520833333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 69, average loss is 0.125390625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 70, average loss is 0.11770833333333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 71, average loss is 0.126953125 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 72, average loss is 0.11015625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 73, average loss is 0.09947916666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 74, average loss is 0.09765625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 75, average loss is 0.12526041666666668 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 76, average loss is 0.0998046875 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 77, average loss is 0.08971354166666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 78, average loss is 0.09270833333333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 79, average loss is 0.09869791666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 80, average loss is 0.09518229166666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 81, average loss is 0.09811197916666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 82, average loss is 0.09225260416666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 83, average loss is 0.08352864583333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 84, average loss is 0.0865234375 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 85, average loss is 0.08704427083333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 86, average loss is 0.078515625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 87, average loss is 0.07552083333333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 88, average loss is 0.07584635416666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 89, average loss is 0.07799479166666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 90, average loss is 0.08033854166666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 91, average loss is 0.0708984375 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 92, average loss is 0.08151041666666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 93, average loss is 0.06751302083333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 94, average loss is 0.068359375 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 95, average loss is 0.06438802083333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 96, average loss is 0.07786458333333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 97, average loss is 0.054361979166666664 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 98, average loss is 0.06145833333333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 99, average loss is 0.06614583333333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 100, average loss is 0.0669921875 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 101, average loss is 0.05852864583333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 102, average loss is 0.05091145833333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 103, average loss is 0.057356770833333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 104, average loss is 0.060286458333333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 105, average loss is 0.06516927083333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 106, average loss is 0.06048177083333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 107, average loss is 0.06009114583333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 108, average loss is 0.0474609375 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 109, average loss is 0.07005208333333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 110, average loss is 0.0755859375 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 111, average loss is 0.06653645833333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 112, average loss is 0.05078125 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 113, average loss is 0.07037760416666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 114, average loss is 0.05130208333333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 115, average loss is 0.045572916666666664 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 116, average loss is 0.04765625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 117, average loss is 0.0462890625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 118, average loss is 0.04765625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 119, average loss is 0.04993489583333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 120, average loss is 0.054947916666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 121, average loss is 0.04596354166666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 122, average loss is 0.04192708333333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 123, average loss is 0.037434895833333336 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 124, average loss is 0.04440104166666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 125, average loss is 0.0484375 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 126, average loss is 0.039388020833333336 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 127, average loss is 0.0365234375 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 128, average loss is 0.04348958333333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 129, average loss is 0.03899739583333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 130, average loss is 0.04140625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 131, average loss is 0.04348958333333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 132, average loss is 0.0390625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 133, average loss is 0.03404947916666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 134, average loss is 0.03671875 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 135, average loss is 0.040625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 136, average loss is 0.03919270833333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 137, average loss is 0.034765625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 138, average loss is 0.035546875 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 139, average loss is 0.035416666666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 140, average loss is 0.0369140625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 141, average loss is 0.03606770833333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 142, average loss is 0.03463541666666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 143, average loss is 0.03854166666666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 144, average loss is 0.03359375 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 145, average loss is 0.03463541666666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 146, average loss is 0.03815104166666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 147, average loss is 0.03177083333333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 148, average loss is 0.037760416666666664 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 149, average loss is 0.0333984375 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 150, average loss is 0.03268229166666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 151, average loss is 0.03509114583333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 152, average loss is 0.03365885416666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 153, average loss is 0.03203125 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 154, average loss is 0.028255208333333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 155, average loss is 0.03958333333333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 156, average loss is 0.031119791666666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 157, average loss is 0.03274739583333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 158, average loss is 0.025846354166666665 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 159, average loss is 0.030338541666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 160, average loss is 0.0267578125 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 161, average loss is 0.029752604166666665 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 162, average loss is 0.030208333333333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 163, average loss is 0.0314453125 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 164, average loss is 0.025520833333333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 165, average loss is 0.028385416666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 166, average loss is 0.027734375 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 167, average loss is 0.026953125 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 168, average loss is 0.026041666666666668 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 169, average loss is 0.03125 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 170, average loss is 0.030598958333333332 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 171, average loss is 0.027864583333333335 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 172, average loss is 0.029036458333333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 173, average loss is 0.028125 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 174, average loss is 0.026953125 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 175, average loss is 0.030338541666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 176, average loss is 0.028645833333333332 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 177, average loss is 0.024674479166666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 178, average loss is 0.029557291666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 179, average loss is 0.029427083333333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 180, average loss is 0.027734375 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 181, average loss is 0.02109375 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 182, average loss is 0.026888020833333335 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 183, average loss is 0.026497395833333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 184, average loss is 0.027083333333333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 185, average loss is 0.023697916666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 186, average loss is 0.022395833333333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 187, average loss is 0.019791666666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 188, average loss is 0.024479166666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 189, average loss is 0.023567708333333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 190, average loss is 0.02578125 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 191, average loss is 0.0201171875 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 192, average loss is 0.025130208333333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 193, average loss is 0.022395833333333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 194, average loss is 0.020768229166666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 195, average loss is 0.023697916666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 196, average loss is 0.019791666666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 197, average loss is 0.026041666666666668 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 198, average loss is 0.022916666666666665 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 199, average loss is 0.020963541666666665 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 200, average loss is 0.025 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 201, average loss is 0.021419270833333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 202, average loss is 0.024544270833333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 203, average loss is 0.024283854166666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 204, average loss is 0.0185546875 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 205, average loss is 0.022265625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 206, average loss is 0.019140625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 207, average loss is 0.018229166666666668 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 208, average loss is 0.019856770833333332 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 209, average loss is 0.021875 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 210, average loss is 0.021744791666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 211, average loss is 0.017317708333333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 212, average loss is 0.021484375 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 213, average loss is 0.020833333333333332 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 214, average loss is 0.021419270833333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 215, average loss is 0.019791666666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 216, average loss is 0.022005208333333335 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 217, average loss is 0.021354166666666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 218, average loss is 0.01953125 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 219, average loss is 0.019010416666666665 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 220, average loss is 0.019466145833333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 221, average loss is 0.019791666666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 222, average loss is 0.019140625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 223, average loss is 0.01796875 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 224, average loss is 0.020703125 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 225, average loss is 0.01796875 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 226, average loss is 0.016666666666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 227, average loss is 0.018033854166666665 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 228, average loss is 0.019791666666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 229, average loss is 0.017447916666666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 230, average loss is 0.016276041666666668 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 231, average loss is 0.029427083333333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 232, average loss is 0.01875 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 233, average loss is 0.017643229166666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 234, average loss is 0.019270833333333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 235, average loss is 0.01640625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 236, average loss is 0.016666666666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 237, average loss is 0.015625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 238, average loss is 0.0150390625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 239, average loss is 0.018489583333333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 240, average loss is 0.01796875 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 241, average loss is 0.019010416666666665 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 242, average loss is 0.018619791666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 243, average loss is 0.019010416666666665 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 244, average loss is 0.016666666666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 245, average loss is 0.014322916666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 246, average loss is 0.019270833333333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 247, average loss is 0.016927083333333332 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 248, average loss is 0.015169270833333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 249, average loss is 0.015559895833333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 250, average loss is 0.019856770833333332 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 251, average loss is 0.01640625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 252, average loss is 0.014388020833333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 253, average loss is 0.015625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 254, average loss is 0.02109375 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 255, average loss is 0.01640625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 256, average loss is 0.015169270833333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 257, average loss is 0.0208984375 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 258, average loss is 0.0142578125 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 259, average loss is 0.01796875 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 260, average loss is 0.017317708333333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 261, average loss is 0.01796875 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 262, average loss is 0.012825520833333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 263, average loss is 0.013541666666666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 264, average loss is 0.014127604166666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 265, average loss is 0.016861979166666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 266, average loss is 0.013541666666666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 267, average loss is 0.013802083333333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 268, average loss is 0.0171875 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 269, average loss is 0.011458333333333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 270, average loss is 0.014127604166666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 271, average loss is 0.014778645833333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 272, average loss is 0.018098958333333335 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 273, average loss is 0.018619791666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 274, average loss is 0.014322916666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 275, average loss is 0.01484375 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 276, average loss is 0.0138671875 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 277, average loss is 0.014518229166666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 278, average loss is 0.013151041666666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 279, average loss is 0.016666666666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 280, average loss is 0.012239583333333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 281, average loss is 0.013932291666666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 282, average loss is 0.014322916666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 283, average loss is 0.013541666666666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 284, average loss is 0.012825520833333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 285, average loss is 0.013020833333333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 286, average loss is 0.010286458333333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 287, average loss is 0.016536458333333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 288, average loss is 0.012369791666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 289, average loss is 0.0125 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 290, average loss is 0.014322916666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 291, average loss is 0.01484375 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 292, average loss is 0.011588541666666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 293, average loss is 0.0119140625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 294, average loss is 0.01171875 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 295, average loss is 0.01171875 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 296, average loss is 0.016015625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 297, average loss is 0.010872395833333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 298, average loss is 0.01171875 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 299, average loss is 0.0126953125 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 300, average loss is 0.010872395833333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 301, average loss is 0.011002604166666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 302, average loss is 0.011197916666666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 303, average loss is 0.0109375 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 304, average loss is 0.0138671875 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 305, average loss is 0.0134765625 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 306, average loss is 0.010807291666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 307, average loss is 0.012760416666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 308, average loss is 0.013541666666666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 309, average loss is 0.013541666666666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 310, average loss is 0.010026041666666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 311, average loss is 0.012239583333333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 312, average loss is 0.012760416666666666 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 313, average loss is 0.01328125 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 314, average loss is 0.011979166666666667 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 315, average loss is 0.011458333333333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 316, average loss is 0.010677083333333334 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 317, average loss is 0.010286458333333333 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
+
+epoch is 318, average loss is 0.011328125 
+Dev...
+
+(The total number of dataset: 26)
+
+Evalution - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (14/14/14)
+   TARGET - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   DSE - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (5/5/5)
+   AGENT - precision: 100.0000% recall: 100.0000% f1_score: 1.0000 (4/4/4)
+now, best fscore is:  1.0
